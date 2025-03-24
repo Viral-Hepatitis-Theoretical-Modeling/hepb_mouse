@@ -1,0 +1,76 @@
+# Properties file for general runs
+
+#stop.at: 400
+run.number: 8
+random.seed: 18
+
+output.directory:  output
+stats.output.file:  stats.csv
+events.output.file:  events.csv
+persons.output.file:  agents.csv
+
+# NONE or ALL or comma separated list from
+log.events: EVENT_1, EVENT_2
+
+print-params: true
+
+# main.params
+#
+# default set of parameters for the HBV model
+# $Id: main.params 01 001-01-01 0Z  Ates $
+#################################
+##  Global Parameters
+#################################
+fullPathLocator : "/HepBV/src/"
+#gridWidth : 3000
+#gridHeight : 1000
+#runTime : 1350
+gridWidth : 300
+gridHeight : 1000
+runTime : 1533
+writeOutput : true
+scenarioName : default
+writeGridTimerFrequency : 100
+
+## Main Param
+#numberofHepatocytes : 3000000
+initalViralLoad : 100000
+#################################
+## Hepatocyte
+#################################
+eclipsedToInfected_phaseTransion_MIN : 9
+eclipsedToInfected_phaseTransion_MAX : 48
+viralProductionCycleControler : 1.5
+viralProductionAtSteadyState : 4
+viralProductionSteepnessGrowthCurve : 0.1
+viralProductionSteepnessGrowthCurve_SD : 0
+viralProductionCycleMidPoint : 20
+viralProductionCycleMidPoint_SD : 0
+viralProdCyclePowerLawConstant : 26.0
+viralProdCyclePowerLawConstant_SD: 0
+viralProdCyclePowerLawExponent : 0.51
+viralProdCyclePowerLawExponent_SD: 0.0
+
+
+#################################
+## HB Virus
+###################################
+viralDegradationRate : 0.69
+viralInfectionRate : 0.019
+infectiousVirusFirstDay : 0.03
+infectiousVirusFirstDay_SD : 0.0
+proportionOfInfectiousVirus : 0.5
+
+
+#################################
+##  Treatment
+#################################
+reduceProductionRate : 0.9
+reduceProductionRateController : 0.5
+isTreatmentUsed : false
+startOfTreatmentAt : 960
+
+
+#################################
+## Other 
+#################################
