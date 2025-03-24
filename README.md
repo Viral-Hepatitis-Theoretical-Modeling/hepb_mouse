@@ -145,7 +145,7 @@ z[i] = @par=1 python_parallel_persist(model_code, "repr(hepb_model.get())");
 where `model_code` is a python snipped similar to above for running via python.
 
 ### Local Runs
-* For UPF sweeps use `run_hepcep4py_sweep.sh
+* For UPF sweeps use `run_hepcep4py_sweep.sh`
   - Change the PROCS, QUEUE, etc as needed
   - Set MACHINE=""
   - Comment #TURBINE_LAUNCHER=srun
