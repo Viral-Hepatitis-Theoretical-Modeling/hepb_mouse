@@ -153,7 +153,7 @@ where `model_code` is a python snipped similar to above for running via python.
 
 ### Bebop
 * Source the `bebop_module_load_hepcep.sh` to load the required modules on bebop
-* For UPF sweeps use `run_hepcep4py_sweep.sh
+* For UPF sweeps use `run_hepcep4py_sweep.sh`
   - Change the PROCS, QUEUE, etc as needed
   - Set MACHINE="slurm"
   - Set TURBINE_LAUNCHER=srun
