@@ -22,7 +22,9 @@ yet releasing virions), IP = productively HBV-infected cells (i.e., actively rel
 virus in blood, V, is composed of infectious and non-infections virions. The parameter ρ represents the 
 fraction of virions that are infectious, β represents the infection rate constant, O represents eclipse 
 phase duration, c, represents viral clearance from blood and P(τ) (Eq 1) represents virion secretion from 
-IP. (B) Schematic diagram of viral production cycle for an individual infected human hepatocyte. P(τ) is 
+IP. 
+
+(B) Schematic diagram of viral production cycle for an individual infected human hepatocyte. P(τ) is 
 the number of virions produced by an infected cell, and l(τ)) is the time interval between production 
 cycle (h). The virions were initially released by IP starting with a long production cycle of 1 virion per 
 cell (Stage 1: ~0–2.5 days) that gradually reaches a production of 2 virions per cell with a shorten 
